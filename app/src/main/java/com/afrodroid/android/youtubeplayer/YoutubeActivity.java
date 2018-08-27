@@ -50,7 +50,7 @@ public class YoutubeActivity extends YouTubeBaseActivity
         youTubePlayer.setPlaybackEventListener(mPlaybackEventListener);
         youTubePlayer.setPlayerStateChangeListener(mPlayerStateChangeListener);
         if (!wasRestored) {
-            youTubePlayer.cueVideo(YOUTUBE_VIDEO_ID);
+            youTubePlayer.loadVideo(YOUTUBE_VIDEO_ID);
 
 
         }
